@@ -28,7 +28,7 @@ $LDAP_SEARCH = "cn=users,cn=accounts,dc=local,dc=lesbg,dc=com";
 $LDAP_RDN = "uid=";
 
 $IPA_PW_UID = "admin@LOCAL.LESBG.COM";
-$IPA_PW_PWD = "DerisYoor";
+$IPA_PW_PWD = "******";
 
 $LOG_LEVEL = $LOG_LEVEL_TEACHER; // Set log level. See core/constants.php for more details
 $LOGS_PER_PAGE = 100; // Number of logs to show per page
@@ -37,7 +37,7 @@ $UPLOAD_BASE_DIR = "/var/www/share/uploads"; // Base directory for uploads
 
 $URL = "https://lesson.lesbg.com";
 
-$SMS_PASSWORD = "peach11m";
+$SMS_PASSWORD = "******";
 
 $REPLICA_COUNT = 2;
 $REPLICA_ID = 2;
