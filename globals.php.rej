@@ -22,7 +22,7 @@
 -$IPA_PW_UID = "pwserver";
 -$IPA_PW_PWD = "password";
 +$IPA_PW_UID = "admin@LOCAL.LESBG.COM";
-+$IPA_PW_PWD = "DerisYoor";
++$IPA_PW_PWD = "*****";
  
  $LOG_LEVEL = $LOG_LEVEL_TEACHER; // Set log level. See core/constants.php for more details
  $LOGS_PER_PAGE = 100; // Number of logs to show per page
@@ -34,7 +34,7 @@
 +$URL = "https://lesson.lesbg.com";
  
 -$SMS_PASSWORD = "password";
-+$SMS_PASSWORD = "peach11m";
++$SMS_PASSWORD = "******";
  
 -$REPLICA_COUNT = 1;
 -$REPLICA_ID = 1;
