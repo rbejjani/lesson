@@ -1,0 +1,51 @@
+--- globals.php.orig	2016-10-26 13:58:44.971215492 +0300
++++ globals.php	2016-10-26 14:02:14.451125584 +0300
+@@ -16,34 +16,34 @@
+ $MAX_LOW_MARKS = 3000; // Maximum number of low marks to show without a
+                        // warning
+ 
+-$DSN = "mysql://user@example.com/lesson"; // DSN to connect to database
+-$PDO_DSN = "mysql:host=example.com;dbname=lesson;charset=utf8"; // DSN to connect to database
+-$PDO_USER = "user";
+-$PDO_PWD = "password";
++$DSN = "mysqli://ODBC@database.local.lesbg.com/lesson"; // DSN to connect to database
++$PDO_DSN = "mysql:host=database.local.lesbg.com;dbname=lesson;charset=utf8"; // DSN to connect to database
++$PDO_USER = "ODBC";
++$PDO_PWD = "";
+ 
+-$LDAP_URI = "ldap://ldap.example.com";
+-$LDAP_SEARCH = "cn=users,dc=example,dc=com";
++$LDAP_URI = "ldap://ipa4.lesbg.com";
++$LDAP_SEARCH = "cn=users,cn=accounts,dc=local,dc=lesbg,dc=com";
+ $LDAP_RDN = "uid=";
+ 
+-$IPA_PW_UID = "pwserver";
+-$IPA_PW_PWD = "password";
++$IPA_PW_UID = "admin@LOCAL.LESBG.COM";
++$IPA_PW_PWD = "DerisYoor";
+ 
+ $LOG_LEVEL = $LOG_LEVEL_TEACHER; // Set log level. See core/constants.php for more details
+ $LOGS_PER_PAGE = 100; // Number of logs to show per page
+-$LOCAL_HOSTS = ".example.local"; // Domain of local hosts
++$LOCAL_HOSTS = ".local.lesbg.com"; // Domain of local hosts
+ $UPLOAD_BASE_DIR = "/var/www/share/uploads"; // Base directory for uploads
+ 
+-$URL = "https://lesson.example.com";
++$URL = "https://lesson.lesbg.com";
+ 
+-$SMS_PASSWORD = "password";
++$SMS_PASSWORD = "peach11m";
+ 
+-$REPLICA_COUNT = 1;
+-$REPLICA_ID = 1;
++$REPLICA_COUNT = 2;
++$REPLICA_ID = 2;
+ 
+ $DYNAMIC_FILES_LOCATION = "/var/www/lesson-dynamic";
+ $STATIC_FILES_LOCATION = "/var/www/html/lesson-static";
+ $STATIC_FILES_WEBPATH = "/lesson-static";
+ 
+ $SHOW_COMMENT_LENGTH = 30;
+ 
+-$DEFAULT_PUN_PERM = 0;
++$DEFAULT_PUN_PERM = 2;
